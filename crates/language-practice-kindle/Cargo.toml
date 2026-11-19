@@ -1,0 +1,10 @@
+[package]
+name = "language-practice-kindle"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+language-practice-core.workspace = true
+language-practice-render.workspace = true
+primitive-app.workspace = true
