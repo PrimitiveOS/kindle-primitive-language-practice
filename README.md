@@ -1,34 +1,48 @@
+<div align="center">
+
+<img src="icon.png" alt="Language Practice icon" width="110">
+
 # Language Practice
 
-Language Practice is an original beginner English pack with Vietnamese guidance. It has ten everyday topics and thirty short exercises.
+**English with Vietnamese guidance**
 
-- Tap **Tiếp tục** to continue or choose a topic. A new lesson begins with a sample phrase and its meaning.
-- Choose a matching phrase, fill in a blank, or tap word tiles to put them in order. Feedback explains the answer before **Tiếp theo**.
-- Tap **Ôn lỗi** to review missed exercises by topic. Lesson progress is saved separately from review.
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-language-practice?label=release)](https://github.com/PrimitiveOS/kindle-primitive-language-practice/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-18-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-The app runs offline and needs no keyboard input. Lessons include greetings, introductions, school, family, food, time, directions, daily routines, shopping, and weather.
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-language-practice/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-<table>
-  <tr>
-    <td><img src="docs/images/word-order.png" alt="A Vietnamese-guided word-order exercise" width="310"></td>
-    <td><img src="docs/images/feedback-dark.png" alt="Answer feedback in dark mode" width="310"></td>
-  </tr>
-</table>
+</div>
 
-The screenshots come from the desktop simulation.
+---
 
-## Install
+Study ten original beginner English lessons with Vietnamese instructions. Choose an answer, complete a sentence, or tap words in order. Revisit mistakes by topic and continue from your saved progress offline.
 
-Find **Language Practice** in PrimitiveOS Store. [Local build and packaging instructions](INSTALL.md)
+## Quick start
 
-## Test locally
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Language Practice** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-```sh
-cargo test --offline --locked --workspace
-cargo run --offline --locked -p language-practice-desktop -- build/previews
-```
+## Highlights
 
-See `docs/images/` for captured screens. The simulation uses the Launcher fonts from a sibling checkout.
+- Study ten original beginner English lessons with Vietnamese instructions.
+- Choose an answer, complete a sentence, or tap words in order.
+- Revisit mistakes by topic and continue from your saved progress offline.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**18 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
